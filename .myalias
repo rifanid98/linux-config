@@ -33,6 +33,9 @@ alias stopserver="sudo /opt/lampp/lampp stop"
 alias stopapache="sudo /opt/lampp/lampp stopapache"
 alias stopmysql="sudo /opt/lampp/lampp stopmysql"
 
+# directory
+alias l="ls -a"
+
 # others
 alias pp="ping 8.8.8.8"
 alias persistalias="cp .myalias ~/myalias && source ~/.zshrc"
