@@ -16,7 +16,7 @@ alias fetch="git fetch"
 alias add="git add"
 alias commit="git commit -m"
 
-# projects
+# yarn
 alias yd="yarn dev"
 alias ys="yarn start"
 alias ya="yarn android"
