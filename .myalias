@@ -1,0 +1,32 @@
+# deb package
+alias install="sudo dpkg -i "
+alias update="sudo apt update -y"
+alias upgrade="sudo apt upgrade -y"
+alias upgrade!="sudo apt update -y && sudo apt upgrade -y"
+
+# git
+alias stats="git status"
+alias graph="git log --oneline --graph --no-decorate"
+alias push="git push origin"
+alias pull="git pull origin"
+alias fetch="git fetch"
+alias add="git add"
+alias commit="git commit"
+
+# projects
+alias yd="yarn dev"
+alias ys="yarn start"
+
+# go
+alias gorun="nodemon --exec go run main.go --signal SIGTERM"
+
+# xampp command
+alias startserver="sudo /opt/lampp/lampp start"
+alias startapache="sudo /opt/lampp/lampp startapache"
+alias startmysql="sudo /opt/lampp/lampp startmysql"
+alias stopserver="sudo /opt/lampp/lampp stop"
+alias stopapache="sudo /opt/lampp/lampp stopapache"
+alias stopmysql="sudo /opt/lampp/lampp stopmysql"
+
+# others
+alias pp="ping 8.8.8.8"
