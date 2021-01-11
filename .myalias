@@ -32,9 +32,13 @@ alias startmysql="sudo /opt/lampp/lampp startmysql"
 alias stopserver="sudo /opt/lampp/lampp stop"
 alias stopapache="sudo /opt/lampp/lampp stopapache"
 alias stopmysql="sudo /opt/lampp/lampp stopmysql"
+alias mysql="sudo /opt/lampp/mysql"
 
 # directory
 alias l="ls -a"
+
+# alias
+alias extract="sudo tar -xvf"
 
 # others
 alias pp="ping 8.8.8.8"
