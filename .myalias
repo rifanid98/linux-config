@@ -47,7 +47,7 @@ alias pp="ping 8.8.8.8"
 
 export LINUX_CONFIG="~/Projects/linux-config"
 alias usealias="cp $LINUX_CONFIG/.myalias $HOME/.myalias && source $HOME/.zshrc"
-alias backupalias="cd $LINUX_CONFIG && cp $HOME/.myalias $LINUX_CONFIG && add $LINUX_CONFIG/.myalias && commit 'update alias command' && push main"
+alias backupalias="cd $LINUX_CONFIG && cp $HOME/.myalias $LINUX_CONFIG && add $LINUX_CONFIG/.myalias && commit 'update alias command' && push main && cd $HOME"
 
 
 
