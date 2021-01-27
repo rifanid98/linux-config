@@ -21,6 +21,8 @@ alias yd="yarn dev"
 alias ys="yarn start"
 alias ya="yarn android"
 alias yi="yarn ios"
+alias yts="yarn ts"
+alias ytsc="yarn tsc"
 
 # go
 alias gorun="nodemon --exec go run main.go --signal SIGTERM"
@@ -42,4 +44,11 @@ alias extract="sudo tar -xvf"
 
 # others
 alias pp="ping 8.8.8.8"
-alias persistalias="cp .myalias ~/myalias && source ~/.zshrc"
+
+export LINUX_CONFIG="~/Projects/linux-config"
+alias usealias="cp $LINUX_CONFIG/.myalias $HOME/.myalias && source $HOME/.zshrc"
+alias backupalias="cd $LINUX_CONFIG && cp $HOME/.myalias $LINUX_CONFIG && add $LINUX_CONFIG/.myalias && commit 'update alias command' && push main"
+
+
+
+
