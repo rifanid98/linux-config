@@ -21,6 +21,7 @@ alias yd="yarn dev"
 alias ys="yarn start"
 alias ya="yarn android"
 alias yi="yarn ios"
+alias ytc="yarn tc"
 alias yts="yarn ts"
 alias ytsc="yarn tsc"
 
