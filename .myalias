@@ -15,6 +15,7 @@ alias pull="git pull origin"
 alias fetch="git fetch"
 alias add="git add"
 alias commit="git commit -m"
+alias branch="git branch -a"
 
 # yarn
 alias yd="yarn dev"
