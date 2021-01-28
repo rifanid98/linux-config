@@ -59,6 +59,7 @@ alias celar="clear"
 alias elar="clear"
 alias lear="clear"
 alias cealr="clear"
+alias clar="clear"
 
 # ALIAS
 alias usealias="cp $LINUX_CONFIG/.myalias $HOME/.myalias && source $HOME/.zshrc"
