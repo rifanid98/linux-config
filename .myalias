@@ -1,4 +1,4 @@
-# deb package
+# DEB PACKAGE
 alias installdeb="sudo dpkg -i "
 alias installapt="sudo apt install -y"
 alias update="sudo apt update -y"
@@ -7,7 +7,7 @@ alias upgrade!="sudo apt update -y && sudo apt upgrade -y"
 alias autoremove="sudo apt autoremove -y"
 alias clean="sudo apt-get clean"
 
-# git
+# GIT
 alias stats="git status"
 alias graph="git log --oneline --graph --decorate"
 alias push="git push origin"
@@ -17,7 +17,7 @@ alias add="git add"
 alias commit="git commit -m"
 alias branch="git branch -a"
 
-# yarn
+# YARN
 alias yd="yarn dev"
 alias ys="yarn start"
 alias ya="yarn android"
@@ -26,10 +26,10 @@ alias ytc="yarn tc"
 alias yts="yarn ts"
 alias ytsc="yarn tsc"
 
-# go
+# GO
 alias gorun="nodemon --exec go run main.go --signal SIGTERM"
 
-# xampp command
+# XAMPP COMMAND
 alias startserver="sudo /opt/lampp/lampp start"
 alias startapache="sudo /opt/lampp/lampp startapache"
 alias startmysql="sudo /opt/lampp/lampp startmysql"
@@ -38,25 +38,29 @@ alias stopapache="sudo /opt/lampp/lampp stopapache"
 alias stopmysql="sudo /opt/lampp/lampp stopmysql"
 alias mysql="sudo /opt/lampp/mysql"
 
-# directory
+# DIRECTORY
 alias l="ls -a"
 
-# compression
+# COMPRESSION
 alias extract="sudo tar -xvf"
 
-# gradle
+# GRADLE
 alias gtest="gradle test"
 alias gclean="gradle clean"
 alias gclass="gradle classes"
 
 export LINUX_CONFIG="~/Projects/linux-config"
 
-# others
+# OTHERS
 alias pp="ping 8.8.8.8"
+
+# CLEAR
 alias celar="clear"
 alias elar="clear"
 alias lear="clear"
 alias cealr="clear"
+
+# ALIAS
 alias usealias="cp $LINUX_CONFIG/.myalias $HOME/.myalias && source $HOME/.zshrc"
 alias backupalias="cd $LINUX_CONFIG && cp $HOME/.myalias $LINUX_CONFIG && add $LINUX_CONFIG/.myalias && commit 'update alias command' && push main && cd $HOME"
 
