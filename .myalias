@@ -41,6 +41,10 @@ alias stopapache="sudo /opt/lampp/lampp stopapache"
 alias stopmysql="sudo /opt/lampp/lampp stopmysql"
 alias mysql="sudo /opt/lampp/bin/mysql"
 
+# DOCKER
+alias dimages="docker images"
+alias dpull="docker pull"
+
 # DIRECTORY
 alias l="ls -a"
 
