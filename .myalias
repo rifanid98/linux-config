@@ -47,6 +47,7 @@ alias dpull="docker pull"
 alias dcontainer="docker container ls"
 alias dcontainerall="docker container ls --all"
 alias dcreate="docker container create"
+alias dstart="docker container start"
 
 # DIRECTORY
 alias l="ls -a"
