@@ -46,6 +46,7 @@ alias dimages="docker images"
 alias dpull="docker pull"
 alias dcontainer="docker container ls"
 alias dcontainerall="docker container ls --all"
+alias dcreate="docker container create"
 
 # DIRECTORY
 alias l="ls -a"
@@ -73,4 +74,4 @@ alias clar="clear"
 # ALIAS
 alias usealias="cp $LINUX_CONFIG/.myalias $HOME/.myalias && source $HOME/.zshrc"
 alias backupalias="cd $LINUX_CONFIG && cp $HOME/.myalias $LINUX_CONFIG && add $LINUX_CONFIG/.myalias && commit 'update alias command' && push main && cd $HOME"
-
+alias editalias="mousepad ~/.myalias"
