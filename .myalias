@@ -40,6 +40,7 @@ alias stopserver="sudo /opt/lampp/lampp stop"
 alias stopapache="sudo /opt/lampp/lampp stopapache"
 alias stopmysql="sudo /opt/lampp/lampp stopmysql"
 alias mysql="sudo /opt/lampp/bin/mysql"
+alias restartserver="sudo /opt/lampp/lampp restart"
 
 # DOCKER
 alias dimages="docker images"
