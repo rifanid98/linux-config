@@ -61,7 +61,9 @@ alias gtest="gradle test"
 alias gclean="gradle clean"
 alias gclass="gradle classes"
 
-export LINUX_CONFIG="~/Projects/linux-config"
+# KUBECTL
+alias kubegetpod="kubectl get pod -n okedok"
+alias kubegetlog="kubectl logs -f -n okedok"
 
 # OTHERS
 alias pp="ping 8.8.8.8"
@@ -74,6 +76,7 @@ alias cealr="clear"
 alias clar="clear"
 
 # ALIAS
+export LINUX_CONFIG="~/Projects/linux-config"
 alias usealias="cp $LINUX_CONFIG/.myalias $HOME/.myalias && source $HOME/.zshrc"
 alias backupalias="cd $LINUX_CONFIG && cp $HOME/.myalias $LINUX_CONFIG && add $LINUX_CONFIG/.myalias && commit 'update alias command' && push main && cd $HOME"
 alias editalias="mousepad ~/.myalias"
